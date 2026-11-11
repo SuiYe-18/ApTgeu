@@ -1,0 +1,28 @@
+; 完整配置
+[Setup]
+AppName=MyApp
+Compression=se
+Language=zh
+Password=mypass
+LicenseFile=LICENSE
+UiFile=my.atui
+OutputDir=Output
+OutputBaseName=37-complete
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Components]
+Name: main; Description: 主程序
+Name: docs; Description: 文档
+[Types]
+Name: full; Description: 完整
+Name: custom; Description: 自定义
+[Tasks]
+Name: desktop; Description: 桌面图标
+[Icons]
+Name: {group}\MyApp; Filename: {app}\app.exe
+[Run]
+Filename: {app}\app.exe; Flags: postinstall nowait skipifsilent
+[Registry]
+Root: HKCU; Subkey: Software\MyApp; ValueType: string; ValueName: Version; ValueData: 1.0
+

@@ -1,0 +1,10 @@
+; 卸载主题
+[Setup]
+AppName=MyApp
+UninstallUiFile=my.atu0
+OutputDir=Output
+OutputBaseName=33-uninstall-themed
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

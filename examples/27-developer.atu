@@ -1,0 +1,13 @@
+; 开发者版
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=27-developer
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Components]
+Name: main; Description: 主程序
+Name: sdk; Description: SDK
+

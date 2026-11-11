@@ -1,0 +1,10 @@
+; 英文界面
+[Setup]
+AppName=MyApp
+Language=en
+OutputDir=Output
+OutputBaseName=16-english
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

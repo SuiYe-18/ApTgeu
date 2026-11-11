@@ -1,0 +1,10 @@
+; 中文界面
+[Setup]
+AppName=MyApp
+Language=zh
+OutputDir=Output
+OutputBaseName=15-chinese
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

@@ -1,0 +1,10 @@
+; 自定义主题
+[Setup]
+AppName=MyApp
+UiFile=my.atui
+OutputDir=Output
+OutputBaseName=32-themed
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

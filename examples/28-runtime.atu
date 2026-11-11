@@ -1,0 +1,14 @@
+; 带运行时
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=28-runtime
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Files]
+Source: vcredist.exe; DestDir: {tmp}
+[Run]
+Filename: {tmp}\vcredist.exe; Flags: runhidden
+

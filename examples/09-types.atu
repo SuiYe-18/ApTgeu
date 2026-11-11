@@ -1,0 +1,15 @@
+; 安装类型
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=09-types
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Components]
+Name: main; Description: 主程序
+[Types]
+Name: full; Description: 完整
+Name: custom; Description: 自定义
+

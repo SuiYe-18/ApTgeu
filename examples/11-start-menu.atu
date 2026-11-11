@@ -1,0 +1,12 @@
+; 开始菜单
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=11-start-menu
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Icons]
+Name: {group}\MyApp; Filename: {app}\app.exe
+

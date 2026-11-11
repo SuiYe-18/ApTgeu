@@ -1,0 +1,10 @@
+; 不压缩
+[Setup]
+AppName=MyApp
+Compression=none
+OutputDir=Output
+OutputBaseName=06-compression-none
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

@@ -1,0 +1,10 @@
+; 仅 64 位
+[Setup]
+AppName=MyApp
+ArchitecturesAllowed=x64
+OutputDir=Output
+OutputBaseName=36-64bit-only
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

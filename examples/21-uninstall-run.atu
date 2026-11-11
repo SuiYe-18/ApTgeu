@@ -1,0 +1,12 @@
+; 卸载时执行
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=21-uninstall-run
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[UninstallRun]
+Filename: {app}\cleanup.exe
+

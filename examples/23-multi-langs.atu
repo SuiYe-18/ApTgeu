@@ -1,0 +1,10 @@
+; 多语言
+[Setup]
+AppName=MyApp
+Language=zh
+OutputDir=Output
+OutputBaseName=23-multi-langs
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

@@ -1,0 +1,10 @@
+; 多文件安装
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=07-multi-files
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

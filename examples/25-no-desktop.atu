@@ -1,0 +1,10 @@
+; 不建桌面图标
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=25-no-desktop
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

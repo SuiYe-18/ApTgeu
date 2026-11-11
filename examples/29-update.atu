@@ -1,0 +1,10 @@
+; 更新包
+[Setup]
+AppName=MyApp
+AppVersion=2.0.1
+OutputDir=Output
+OutputBaseName=29-update
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

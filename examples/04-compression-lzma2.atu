@@ -1,0 +1,10 @@
+; LZMA2 压缩
+[Setup]
+AppName=MyApp
+Compression=lzma2
+OutputDir=Output
+OutputBaseName=04-compression-lzma2
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

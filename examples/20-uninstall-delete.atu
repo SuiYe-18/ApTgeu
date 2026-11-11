@@ -1,0 +1,12 @@
+; 卸载清理
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=20-uninstall-delete
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[UninstallDelete]
+Type: filesandordirs; Name: {app}\cache
+

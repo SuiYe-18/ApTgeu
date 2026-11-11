@@ -1,0 +1,10 @@
+; 基础示例
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=30-basic
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

@@ -1,0 +1,10 @@
+; 许可协议
+[Setup]
+AppName=MyApp
+LicenseFile=LICENSE
+OutputDir=Output
+OutputBaseName=13-license
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

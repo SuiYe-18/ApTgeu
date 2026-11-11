@@ -1,0 +1,10 @@
+; 自定义目录
+[Setup]
+AppName=MyApp
+DefaultDirName=D:\Tools\MyApp
+OutputDir=Output
+OutputBaseName=17-custom-dir
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

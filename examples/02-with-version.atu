@@ -1,0 +1,11 @@
+; 带版本号
+[Setup]
+AppName=MyApp
+AppVersion=2.1.0
+Publisher=MyCompany
+OutputDir=Output
+OutputBaseName=02-with-version
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

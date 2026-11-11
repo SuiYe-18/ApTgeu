@@ -1,0 +1,14 @@
+; 桌面快捷方式
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=10-desktop-shortcut
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Tasks]
+Name: desktop; Description: 创建桌面图标
+[Icons]
+Name: {commondesktop}\MyApp; Filename: {app}\app.exe; Tasks: desktop
+

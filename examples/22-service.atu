@@ -1,0 +1,14 @@
+; Windows 服务
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=22-service
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[InstallService]
+Name: MyService
+StartType: auto
+Executable: {app}\service.exe
+

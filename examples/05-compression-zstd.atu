@@ -1,0 +1,10 @@
+; Zstd 压缩
+[Setup]
+AppName=MyApp
+Compression=zstd
+OutputDir=Output
+OutputBaseName=05-compression-zstd
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

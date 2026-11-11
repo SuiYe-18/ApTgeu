@@ -1,0 +1,16 @@
+; 高级配置
+[Setup]
+AppName=MyApp
+Compression=se
+Language=zh
+Password=mypass
+OutputDir=Output
+OutputBaseName=31-advanced
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Components]
+Name: main; Description: 主程序
+[Tasks]
+Name: desktop; Description: 桌面图标
+

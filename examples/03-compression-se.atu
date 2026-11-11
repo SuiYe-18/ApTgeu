@@ -1,0 +1,10 @@
+; SE 压缩
+[Setup]
+AppName=MyApp
+Compression=se
+OutputDir=Output
+OutputBaseName=03-compression-se
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

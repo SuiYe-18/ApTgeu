@@ -1,0 +1,12 @@
+; 安装后启动
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=12-postinstall
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Run]
+Filename: {app}\app.exe; Flags: postinstall nowait skipifsilent
+

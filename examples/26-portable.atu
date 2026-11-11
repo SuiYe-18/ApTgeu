@@ -1,0 +1,10 @@
+; 绿色软件
+[Setup]
+AppName=MyApp
+DefaultDirName={autopf}\MyApp
+OutputDir=Output
+OutputBaseName=26-portable
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

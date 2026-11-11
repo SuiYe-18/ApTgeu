@@ -1,0 +1,10 @@
+; 大文件
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=34-large-files
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+

@@ -1,0 +1,12 @@
+; URL 下载
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=35-url-download
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Files]
+Source: https://example.com/app.exe; DestDir: {app}; Flags: external
+

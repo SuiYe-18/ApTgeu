@@ -1,0 +1,13 @@
+; 可选组件
+[Setup]
+AppName=MyApp
+
+OutputDir=Output
+OutputBaseName=08-components
+
+[Files]
+Source: "C:\path\to\app.exe"; DestDir: {app}
+[Components]
+Name: main; Description: 主程序
+Name: docs; Description: 文档
+
